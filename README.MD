@@ -1,5 +1,9 @@
 ## stephengrider-reactnative-advanced-3-cloudfunctions-auth-jwt
 
+- THIS PROJECT IS ARCHIVED
+- PROJECT HAS BEEN DOWNGRADED TO FREE - SPARK PLAN as API keys are in app.js
+  YOU NEED TO UPGRADE TO BLAZE plan to get it back up and running
+
 ### dependency: backend server
 
 - https://github.com/swagfinger/stephengrider-reactnative-advanced-2-OTP-authentication.git
@@ -56,6 +60,7 @@ export default function App() {
 ### USING firebase - signin form to authenticate user
 
 - then use firebase to sign into application firebase.auth().signInWithCustomToken(TOKEN);
+- if successfully signed in, user can use firebase anywhere else in the application.
 
 ```js
 import firebase from 'firebase';
